@@ -1,0 +1,6 @@
+interface:
+  display_name: "提示词优化与审核"
+  short_description: "优化需求的意图、范围和交付标准，先审核再执行，减少歧义与无关工作"
+  default_prompt: "使用 $prompt-review-gate 优化我的需求提示词，先交我审核，确认后再执行。"
+policy:
+  allow_implicit_invocation: true
